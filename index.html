@@ -1,278 +1,270 @@
 <!DOCTYPE html>
-<html lang="
-  
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#111111">
-<meta charset="UTF-8">
+<html lang="en">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<head>
 
-<title>Throne of Fire Covenant Ministry</title>
+  <meta charset="UTF-8">
 
-<style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+  <meta name="theme-color" content="#111111">
 
-html {
-  scroll-behavior: smooth;
-}
+  <link rel="manifest" href="./manifest.json">
 
-body {
-  font-family: Arial, sans-serif;
-  background: #080808;
-  color: white;
-  padding-bottom: 80px;
-}
+  <title>Throne of Fire Covenant Ministry</title>
 
-a {
-  text-decoration: none;
-}
+  <style>
 
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-/* HEADER */
+    html {
+      scroll-behavior: smooth;
+    }
 
-header {
-  text-align: center;
-  padding: 35px 20px;
-  background: #111;
-}
+    body {
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: white;
+      padding-bottom: 80px;
+    }
 
-.logo {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 15px;
-  border-radius: 50%;
-  background: #222;
-  border: 2px solid #444;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 40px;
-}
+    a {
+      text-decoration: none;
+    }
 
-header h1 {
-  font-size: 27px;
-  margin-bottom: 7px;
-}
+    /* HEADER */
 
-header p {
-  color: #bbb;
-  margin-bottom: 12px;
-}
+    header {
+      text-align: center;
+      padding: 35px 20px;
+      background: #111;
+    }
 
-.tagline {
-  font-size: 11px;
-  letter-spacing: 2px;
-  color: #777;
-}
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+      background: #222;
+      border: 2px solid #444;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
 
+    header h1 {
+      font-size: 27px;
+      margin-bottom: 7px;
+    }
 
-/* HERO */
+    header p {
+      color: #bbb;
+      margin-bottom: 12px;
+    }
 
-.hero {
-  text-align: center;
-  padding: 55px 20px;
-  background: linear-gradient(#181818, #080808);
-}
+    .tagline {
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #777;
+    }
 
-.hero h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
+    /* HERO */
 
-.hero p {
-  color: #ccc;
-  line-height: 1.6;
-  margin-bottom: 25px;
-}
+    .hero {
+      text-align: center;
+      padding: 55px 20px;
+      background: linear-gradient(#181818, #080808);
+    }
 
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
 
-/* BUTTON */
+    .hero p {
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
 
-.btn {
-  display: inline-block;
-  padding: 12px 20px;
-  background: white;
-  color: black;
-  border-radius: 8px;
-  font-weight: bold;
-  margin-top: 10px;
-}
+    /* BUTTON */
 
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: white;
+      color: black;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
 
-/* FEATURED */
+    /* FEATURED */
 
-.featured {
-  margin: 20px;
-  padding: 30px 20px;
-  text-align: center;
-  background: #151515;
-  border: 1px solid #333;
-  border-radius: 15px;
-}
+    .featured {
+      margin: 20px;
+      padding: 30px 20px;
+      text-align: center;
+      background: #151515;
+      border: 1px solid #333;
+      border-radius: 15px;
+    }
 
-.featured-label {
-  color: #999;
-  font-size: 12px;
-  letter-spacing: 2px;
-  margin-bottom: 12px;
-}
+    .featured-label {
+      color: #999;
+      font-size: 12px;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
 
-.featured h2 {
-  margin-bottom: 12px;
-}
+    .featured h2 {
+      margin-bottom: 12px;
+    }
 
-.featured p {
-  color: #ccc;
-  line-height: 1.5;
-}
+    .featured p {
+      color: #ccc;
+      line-height: 1.5;
+    }
 
-.featured-btn {
-  display: inline-block;
-  margin-top: 18px;
-  padding: 12px 22px;
-  background: white;
-  color: black;
-  border-radius: 8px;
-  font-weight: bold;
-}
+    .featured-btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 22px;
+      background: white;
+      color: black;
+      border-radius: 8px;
+      font-weight: bold;
+    }
 
+    /* SECTIONS */
 
-/* SECTIONS */
+    .section {
+      padding: 35px 15px;
+    }
 
-.section {
-  padding: 35px 15px;
-}
+    .section h2 {
+      text-align: center;
+      margin-bottom: 22px;
+    }
 
-.section h2 {
-  text-align: center;
-  margin-bottom: 22px;
-}
+    /* CARDS */
 
+    .card {
+      background: #151515;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
 
-/* CARDS */
+    .card h3 {
+      margin-bottom: 12px;
+    }
 
-.card {
-  background: #151515;
-  border: 1px solid #333;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
+    .card p {
+      color: #ccc;
+      line-height: 1.6;
+      margin-bottom: 8px;
+    }
 
-.card h3 {
-  margin-bottom: 12px;
-}
+    /* VIDEOS */
 
-.card p {
-  color: #ccc;
-  line-height: 1.6;
-  margin-bottom: 8px;
-}
+    .video-card {
+      background: #151515;
+      margin: 20px 15px;
+      border: 1px solid #333;
+      border-radius: 12px;
+      overflow: hidden;
+    }
 
+    .video-card iframe {
+      width: 100%;
+      height: 210px;
+      border: none;
+      display: block;
+    }
 
-/* VIDEOS */
+    .video-info {
+      padding: 18px;
+    }
 
-.video-card {
-  background: #151515;
-  margin: 20px 15px;
-  border: 1px solid #333;
-  border-radius: 12px;
-  overflow: hidden;
-}
+    .video-info h3 {
+      margin-bottom: 10px;
+    }
 
-.video-card iframe {
-  width: 100%;
-  height: 210px;
-  border: none;
-  display: block;
-}
+    .video-info p {
+      color: #ccc;
+      line-height: 1.5;
+    }
 
-.video-info {
-  padding: 18px;
-}
+    /* WORD OF THE DAY */
 
-.video-info h3 {
-  margin-bottom: 10px;
-}
+    .verse {
+      text-align: center;
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1.7;
+    }
 
-.video-info p {
-  color: #ccc;
-  line-height: 1.5;
-}
+    .reference {
+      text-align: center;
+      color: #999;
+      margin-top: 12px;
+    }
 
+    /* CONTACT */
 
-/* WORD OF THE DAY */
+    .contact-item {
+      padding: 12px 0;
+      border-bottom: 1px solid #333;
+    }
 
-.verse {
-  text-align: center;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 1.7;
-}
+    .contact-item:last-child {
+      border-bottom: none;
+    }
 
-.reference {
-  text-align: center;
-  color: #999;
-  margin-top: 12px;
-}
+    /* BOTTOM NAV */
 
+    nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 68px;
+      background: #111;
+      border-top: 1px solid #333;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 9999;
+    }
 
-/* CONTACT */
+    nav a {
+      color: #aaa;
+      text-align: center;
+      font-size: 12px;
+      line-height: 21px;
+    }
 
-.contact-item {
-  padding: 12px 0;
-  border-bottom: 1px solid #333;
-}
+    nav a:hover {
+      color: white;
+    }
 
-.contact-item:last-child {
-  border-bottom: none;
-}
+    /* FOOTER */
 
+    footer {
+      text-align: center;
+      padding: 30px 15px;
+      color: #777;
+      font-size: 12px;
+    }
 
-/* BOTTOM NAV */
-
-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 68px;
-  background: #111;
-  border-top: 1px solid #333;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  z-index: 9999;
-}
-
-nav a {
-  color: #aaa;
-  text-align: center;
-  font-size: 12px;
-  line-height: 21px;
-}
-
-nav a:hover {
-  color: white;
-}
-
-
-/* FOOTER */
-
-footer {
-  text-align: center;
-  padding: 30px 15px;
-  color: #777;
-  font-size: 12px;
-}
-
-</style>
+  </style>
 
 </head>
 
@@ -280,523 +272,523 @@ footer {
 <body id="home">
 
 
-<!-- HEADER -->
+  <!-- HEADER -->
 
-<header>
+  <header>
 
-  <div class="logo">
-    🔥
-  </div>
-
-  <h1>
-    Throne of Fire
-  </h1>
-
-  <p>
-    Covenant Ministry
-  </p>
-
-  <div class="tagline">
-    PREACH • TEACH • TRANSFORM
-  </div>
-
-</header>
-
-
-<!-- HOME -->
-
-<section class="hero">
-
-  <h2>
-    Welcome
-  </h2>
-
-  <p>
-    Welcome to Throne of Fire Covenant Ministry.
-    Discover powerful preaching, teaching,
-    worship and biblical encouragement.
-  </p>
-
-  <a
-    href="#sermons"
-    class="btn">
-
-    🎥 Watch Sermons
-
-  </a>
-
-</section>
-
-
-<!-- FEATURED -->
-
-<section class="featured">
-
-  <div class="featured-label">
-    🔥 FEATURED MESSAGE
-  </div>
-
-  <h2>
-    Watch the Latest Sermon
-  </h2>
-
-  <p>
-    Be encouraged, strengthened and transformed
-    through the Word of God.
-  </p>
-
-  <a
-    href="#sermons"
-    class="featured-btn">
-
-    ▶ Watch Now
-
-  </a>
-
-</section>
-
-
-<!-- WORD OF THE DAY -->
-
-<section class="section">
-
-  <h2>
-    📖 Word of the Day
-  </h2>
-
-  <div class="card">
-
-    <p class="verse">
-      "Your word is a lamp for my feet,
-      a light on my path."
-    </p>
-
-    <p class="reference">
-      Psalm 119:105
-    </p>
-
-  </div>
-
-</section>
-
-
-<!-- SERMONS -->
-
-<section
-  class="section"
-  id="sermons">
-
-  <h2>
-    🎥 Sermons & Videos
-  </h2>
-
-</section>
-
-
-<!-- VIDEO 1 -->
-
-<div class="video-card">
-
-  <iframe
-    src="https://www.youtube.com/embed/nWTXVb2u2kY"
-    allowfullscreen>
-  </iframe>
-
-  <div class="video-info">
-
-    <h3>
-      Latest Sermon
-    </h3>
-
-    <p>
-      Watch this powerful message from
-      Throne of Fire Covenant Ministry.
-    </p>
-
-    <a
-      href="https://youtu.be/nWTXVb2u2kY"
-      target="_blank"
-      class="btn">
-
-      ▶ Watch Full Video
-
-    </a>
-
-  </div>
-
-</div>
-
-
-<!-- VIDEO 2 -->
-
-<div class="video-card">
-
-  <iframe
-    src="https://www.youtube.com/embed/QcWljegOW8w"
-    allowfullscreen>
-  </iframe>
-
-  <div class="video-info">
-
-    <h3>
-      Powerful Message
-    </h3>
-
-    <p>
-      Watch another message from
-      Throne of Fire Covenant Ministry.
-    </p>
-
-    <a
-      href="https://youtu.be/QcWljegOW8w"
-      target="_blank"
-      class="btn">
-
-      ▶ Watch Full Video
-
-    </a>
-
-  </div>
-
-</div>
-
-
-<!-- VIDEO 3 -->
-
-<div class="video-card">
-
-  <iframe
-    src="https://www.youtube.com/embed/MYvxi9nkRcc"
-    allowfullscreen>
-  </iframe>
-
-  <div class="video-info">
-
-    <h3>
-      Teaching & Sermon
-    </h3>
-
-    <p>
-      Receive biblical teaching
-      and encouragement.
-    </p>
-
-    <a
-      href="https://youtu.be/MYvxi9nkRcc"
-      target="_blank"
-      class="btn">
-
-      ▶ Watch Full Video
-
-    </a>
-
-  </div>
-
-</div>
-
-
-<!-- VIDEO 4 -->
-
-<div class="video-card">
-
-  <iframe
-    src="https://www.youtube.com/embed/GvCwQWK0H4Q"
-    allowfullscreen>
-  </iframe>
-
-  <div class="video-info">
-
-    <h3>
-      Latest Message
-    </h3>
-
-    <p>
-      Grow in faith through the Word of God.
-    </p>
-
-    <a
-      href="https://youtu.be/GvCwQWK0H4Q"
-      target="_blank"
-      class="btn">
-
-      ▶ Watch Full Video
-
-    </a>
-
-  </div>
-
-</div>
-
-
-<!-- SHORT 1 -->
-
-<div class="video-card">
-
-  <iframe
-    src="https://www.youtube.com/embed/eav2KQ1GjVM"
-    allowfullscreen>
-  </iframe>
-
-  <div class="video-info">
-
-    <h3>
-      🔥 Short Message
-    </h3>
-
-    <p>
-      A short word of encouragement.
-    </p>
-
-    <a
-      href="https://youtube.com/shorts/eav2KQ1GjVM"
-      target="_blank"
-      class="btn">
-
-      ▶ Watch Short
-
-    </a>
-
-  </div>
-
-</div>
-
-
-<!-- SHORT 2 -->
-
-<div class="video-card">
-
-  <iframe
-    src="https://www.youtube.com/embed/wA6mim2xxl0"
-    allowfullscreen>
-  </iframe>
-
-  <div class="video-info">
-
-    <h3>
-      🔥 Short Message
-    </h3>
-
-    <p>
-      Be encouraged by the Word of God.
-    </p>
-
-    <a
-      href="https://youtube.com/shorts/wA6mim2xxl0"
-      target="_blank"
-      class="btn">
-
-      ▶ Watch Short
-
-    </a>
-
-  </div>
-
-</div>
-
-
-<!-- LIVE -->
-
-<section
-  class="section"
-  id="live">
-
-  <h2>
-    🔴 Live Ministry
-  </h2>
-
-  <div class="card">
-
-    <h3>
-      Live Services
-    </h3>
-
-    <p>
-      Join us for live preaching,
-      worship and ministry.
-    </p>
-
-    <a
-      href="https://www.youtube.com/@thronefirecovenantministry/live"
-      target="_blank"
-      class="btn">
-
-      🔴 Watch Live
-
-    </a>
-
-  </div>
-
-</section>
-
-
-<!-- EVENTS -->
-
-<section
-  class="section"
-  id="events">
-
-  <h2>
-    📅 Upcoming Events
-  </h2>
-
-  <div class="card">
-
-    <h3>
-      Sunday Service
-    </h3>
-
-    <p>
-      <strong>🗓 Date:</strong>
-      Every Sunday
-    </p>
-
-    <p>
-      <strong>⏰ Time:</strong>
-      12:00 PM
-    </p>
-
-    <p>
-      <strong>📍 Venue:</strong>
-      YouTube
-    </p>
-
-    <p>
-      Join Throne of Fire Covenant Ministry
-      for a powerful time in God's Word.
-    </p>
-
-    <a
-      href="https://www.youtube.com/@thronefirecovenantministry"
-      target="_blank"
-      class="btn">
-
-      🎥 Join Service
-
-    </a>
-
-  </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section
-  class="section"
-  id="about">
-
-  <h2>
-    ℹ️ About the Ministry
-  </h2>
-
-  <div class="card">
-
-    <h3>
-      Throne of Fire Covenant Ministry
-    </h3>
-
-    <p>
-      Throne of Fire Covenant Ministry is
-      dedicated to preaching the Word of God,
-      teaching biblical truth, and helping
-      people grow in their relationship with God.
-    </p>
-
-    <p>
-      Our desire is to see lives transformed
-      through the power of God's Word and
-      the work of the Holy Spirit.
-    </p>
-
-  </div>
-
-</section>
-
-
-<!-- CONTACT -->
-
-<section
-  class="section"
-  id="contact">
-
-  <h2>
-    📞 Contact Us
-  </h2>
-
-  <div class="card">
-
-    <div class="contact-item">
-      📺 YouTube
+    <div class="logo">
+      🔥
     </div>
 
-    <div class="contact-item">
+    <h1>
+      Throne of Fire
+    </h1>
+
+    <p>
+      Covenant Ministry
+    </p>
+
+    <div class="tagline">
+      PREACH • TEACH • TRANSFORM
+    </div>
+
+  </header>
+
+
+  <!-- HOME -->
+
+  <section class="hero">
+
+    <h2>
+      Welcome
+    </h2>
+
+    <p>
+      Welcome to Throne of Fire Covenant Ministry.
+      Discover powerful preaching, teaching,
+      worship and biblical encouragement.
+    </p>
+
+    <a
+      href="#sermons"
+      class="btn">
+
+      🎥 Watch Sermons
+
+    </a>
+
+  </section>
+
+
+  <!-- FEATURED -->
+
+  <section class="featured">
+
+    <div class="featured-label">
+      🔥 FEATURED MESSAGE
+    </div>
+
+    <h2>
+      Watch the Latest Sermon
+    </h2>
+
+    <p>
+      Be encouraged, strengthened and transformed
+      through the Word of God.
+    </p>
+
+    <a
+      href="#sermons"
+      class="featured-btn">
+
+      ▶ Watch Now
+
+    </a>
+
+  </section>
+
+
+  <!-- WORD OF THE DAY -->
+
+  <section class="section">
+
+    <h2>
+      📖 Word of the Day
+    </h2>
+
+    <div class="card">
+
+      <p class="verse">
+        "Your word is a lamp for my feet,
+        a light on my path."
+      </p>
+
+      <p class="reference">
+        Psalm 119:105
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- SERMONS -->
+
+  <section
+    class="section"
+    id="sermons">
+
+    <h2>
+      🎥 Sermons & Videos
+    </h2>
+
+  </section>
+
+
+  <!-- VIDEO 1 -->
+
+  <div class="video-card">
+
+    <iframe
+      src="https://www.youtube.com/embed/nWTXVb2u2kY"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-info">
+
+      <h3>
+        Latest Sermon
+      </h3>
+
+      <p>
+        Watch this powerful message from
+        Throne of Fire Covenant Ministry.
+      </p>
+
+      <a
+        href="https://youtu.be/nWTXVb2u2kY"
+        target="_blank"
+        class="btn">
+
+        ▶ Watch Full Video
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- VIDEO 2 -->
+
+  <div class="video-card">
+
+    <iframe
+      src="https://www.youtube.com/embed/QcWljegOW8w"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-info">
+
+      <h3>
+        Powerful Message
+      </h3>
+
+      <p>
+        Watch another message from
+        Throne of Fire Covenant Ministry.
+      </p>
+
+      <a
+        href="https://youtu.be/QcWljegOW8w"
+        target="_blank"
+        class="btn">
+
+        ▶ Watch Full Video
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- VIDEO 3 -->
+
+  <div class="video-card">
+
+    <iframe
+      src="https://www.youtube.com/embed/MYvxi9nkRcc"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-info">
+
+      <h3>
+        Teaching & Sermon
+      </h3>
+
+      <p>
+        Receive biblical teaching
+        and encouragement.
+      </p>
+
+      <a
+        href="https://youtu.be/MYvxi9nkRcc"
+        target="_blank"
+        class="btn">
+
+        ▶ Watch Full Video
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- VIDEO 4 -->
+
+  <div class="video-card">
+
+    <iframe
+      src="https://www.youtube.com/embed/GvCwQWK0H4Q"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-info">
+
+      <h3>
+        Latest Message
+      </h3>
+
+      <p>
+        Grow in faith through the Word of God.
+      </p>
+
+      <a
+        href="https://youtu.be/GvCwQWK0H4Q"
+        target="_blank"
+        class="btn">
+
+        ▶ Watch Full Video
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- SHORT 1 -->
+
+  <div class="video-card">
+
+    <iframe
+      src="https://www.youtube.com/embed/eav2KQ1GjVM"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-info">
+
+      <h3>
+        🔥 Short Message
+      </h3>
+
+      <p>
+        A short word of encouragement.
+      </p>
+
+      <a
+        href="https://youtube.com/shorts/eav2KQ1GjVM"
+        target="_blank"
+        class="btn">
+
+        ▶ Watch Short
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- SHORT 2 -->
+
+  <div class="video-card">
+
+    <iframe
+      src="https://www.youtube.com/embed/wA6mim2xxl0"
+      allowfullscreen>
+    </iframe>
+
+    <div class="video-info">
+
+      <h3>
+        🔥 Short Message
+      </h3>
+
+      <p>
+        Be encouraged by the Word of God.
+      </p>
+
+      <a
+        href="https://youtube.com/shorts/wA6mim2xxl0"
+        target="_blank"
+        class="btn">
+
+        ▶ Watch Short
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- LIVE -->
+
+  <section
+    class="section"
+    id="live">
+
+    <h2>
+      🔴 Live Ministry
+    </h2>
+
+    <div class="card">
+
+      <h3>
+        Live Services
+      </h3>
+
+      <p>
+        Join us for live preaching,
+        worship and ministry.
+      </p>
+
+      <a
+        href="https://www.youtube.com/@thronefirecovenantministry/live"
+        target="_blank"
+        class="btn">
+
+        🔴 Watch Live
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- EVENTS -->
+
+  <section
+    class="section"
+    id="events">
+
+    <h2>
+      📅 Upcoming Events
+    </h2>
+
+    <div class="card">
+
+      <h3>
+        Sunday Service
+      </h3>
+
+      <p>
+        <strong>🗓 Date:</strong>
+        Every Sunday
+      </p>
+
+      <p>
+        <strong>⏰ Time:</strong>
+        12:00 PM
+      </p>
+
+      <p>
+        <strong>📍 Venue:</strong>
+        YouTube
+      </p>
+
+      <p>
+        Join Throne of Fire Covenant Ministry
+        for a powerful time in God's Word.
+      </p>
+
+      <a
+        href="https://www.youtube.com/@thronefirecovenantministry"
+        target="_blank"
+        class="btn">
+
+        🎥 Join Service
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+
+  <section
+    class="section"
+    id="about">
+
+    <h2>
+      ℹ️ About the Ministry
+    </h2>
+
+    <div class="card">
+
+      <h3>
+        Throne of Fire Covenant Ministry
+      </h3>
+
+      <p>
+        Throne of Fire Covenant Ministry is
+        dedicated to preaching the Word of God,
+        teaching biblical truth, and helping
+        people grow in their relationship with God.
+      </p>
+
+      <p>
+        Our desire is to see lives transformed
+        through the power of God's Word and
+        the work of the Holy Spirit.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+  <section
+    class="section"
+    id="contact">
+
+    <h2>
+      📞 Contact Us
+    </h2>
+
+    <div class="card">
+
+      <div class="contact-item">
+        📺 YouTube
+      </div>
+
+      <div class="contact-item">
+        🔥 Throne of Fire Covenant Ministry
+      </div>
+
+      <div class="contact-item">
+        📱 Connect with our ministry through
+        our YouTube channel.
+      </div>
+
+      <a
+        href="https://www.youtube.com/@thronefirecovenantministry"
+        target="_blank"
+        class="btn">
+
+        ▶ Visit YouTube
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
       🔥 Throne of Fire Covenant Ministry
-    </div>
+    </p>
 
-    <div class="contact-item">
-      📱 Connect with our ministry through
-      our YouTube channel.
-    </div>
+    <p>
+      PREACH • TEACH • TRANSFORM
+    </p>
 
-    <a
-      href="https://www.youtube.com/@thronefirecovenantministry"
-      target="_blank"
-      class="btn">
+  </footer>
 
-      ▶ Visit YouTube
 
+  <!-- NAVIGATION -->
+
+  <nav>
+
+    <a href="#home">
+      🏠<br>
+      Home
     </a>
 
-  </div>
+    <a href="#sermons">
+      🎥<br>
+      Sermons
+    </a>
 
-</section>
+    <a href="#live">
+      🔴<br>
+      Live
+    </a>
 
+    <a href="#events">
+      📅<br>
+      Events
+    </a>
 
-<!-- FOOTER -->
+    <a href="#about">
+      ℹ️<br>
+      About
+    </a>
 
-<footer>
-
-  <p>
-    🔥 Throne of Fire Covenant Ministry
-  </p>
-
-  <p>
-    PREACH • TEACH • TRANSFORM
-  </p>
-
-</footer>
-
-
-<!-- NAVIGATION -->
-
-<nav>
-
-  <a href="#home">
-    🏠<br>
-    Home
-  </a>
-
-  <a href="#sermons">
-    🎥<br>
-    Sermons
-  </a>
-
-  <a href="#live">
-    🔴<br>
-    Live
-  </a>
-
-  <a href="#events">
-    📅<br>
-    Events
-  </a>
-
-  <a href="#about">
-    ℹ️<br>
-    About
-  </a>
-
-</nav>
+  </nav>
 
 
 </body>
